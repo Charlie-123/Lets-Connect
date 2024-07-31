@@ -1,0 +1,35 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.flex-1::-webkit-scrollbar{
+    display: none;
+} */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .flex-1::-webkit-scrollbar {
+  display: none;
+} */
+
+.flex-1 {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+  
+  .flex-1::-webkit-scrollbar {
+    display: none;  /* Chrome, Safari, and Opera */
+  }
+
+  .users-list {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+  
+  .users-list::-webkit-scrollbar {
+    display: none;  /* Chrome, Safari, and Opera */
+  }
+  
+  
